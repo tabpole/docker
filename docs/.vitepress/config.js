@@ -1,7 +1,7 @@
 export default {
     title: 'Docker Handbook',
     description: 'Docker Handbook',
-    base : '/docker-handbook/',
+    base : '/docker/',
     lastUpdated: true,
     lang: 'en-US',
     cleanUrls: true,
