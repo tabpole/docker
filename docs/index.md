@@ -1,66 +1,51 @@
-# Docker Handbook
+---
+layout: home
 
-A simple and short Docker guideline.
+hero:
+  name: Docker Handbook
+  text: A Short & Simple Docker Journey
+  tagline: Make your development journey smart
+  image:
+    src: 'assets/logo.png'
+    alt: Docker Handbook
+  actions:
+    - theme: brand
+      text: Documentation
+      link: getting_started/overview.md
+    - theme: alt
+      text: GitHub
+      link: https://github.com/tabpole/docker-handbook
 
-## How to run on local machine
+features:
 
-Step 1: Clone repository
+  - icon: 
+      src: assets/badge.png
+    title: Simplicity First
+    details: Discover how Docker's philosophy makes it easy to create, deploy, and manage your applications, even in complex environments.
 
-```bash
-    git clone git@github.com:tabpole/docker-handbook.git
-```
+  - icon:
+      src: assets/badge.png
+    title: Overview
+    details: Get an in-depth overview of Docker and related technologies such as images, containers including Docker Compose, Docker Registry.
 
-Step 2: npm dependencies
+  - icon: 
+      src: assets/badge.png
+    title: Examples
+    details: Learn how to use hello-world , ubuntu, alpine, nginx, apache, tomcat etc. usint docker.
 
-```bash
-    npm install
-```
+  - icon: 
+      src: assets/badge.png
+    title: DevOps
+    details: Discover how Docker can streamline your development and deployment workflows, making DevOps easier and more efficient.
 
-Step 3: run documentation site on browser
+  - icon:
+      src: assets/badge.png
+    title: Cloud Computing
+    details: Explore how Docker can help you leverage the power of cloud computing by simplifying application deployment and management.
 
-```bash
-    npm run docs:dev
-```
+  - icon: 
+      src: assets/badge.png
+    title: Kubernetes
+    details: Explore how Docker can be used in conjunction with Kubernetes to orchestrate and scale containerized applications.
 
-Other Commands :
-
-```bash
-    npm run docs:build
-    npm run docs:preview
-```
-
-## Owner Contribution commands
-
-Sequential commands
-
-```bash  
-    git add .
-    git commit -m 'wip'
-    git pull origin main
-    git push origin main
-```
-
-## Move dist files into 'site' branch
-
-Sequential commands
-
-```bash
-    git checkout site
-    rm -rf  !("node_modules"|"docs"|".gitignore")
-    cp -rf docs/.vitepress/dist/* .
-    git add .
-    git commit -m 'deployment'
-    git pull origin site
-    git push origin site
-    git checkout main
-```
-
-Others commands :
-
-```bash
-    git checkout main docs/.vitepress/dist
-```
-
-## Build tool
-
-This documentation site is built using [vitepress](https://vitepress.vuejs.org).
+---
