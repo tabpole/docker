@@ -17,9 +17,9 @@ export default {
 
       nav: [
         { text: 'Home', link: '/' },
-        { text: 'Documentation', link: 'getting_started/overview.md' },
         { text: 'About', link: '/about' },
-        { text: 'Support Author', link: 'https://www.buymeacoffee.com/alpondith' },
+        { text: 'Documentation', link: 'getting_started/overview.md' },
+        { text: 'Support', link: 'https://www.buymeacoffee.com/alpondith'},
       ],
       socialLinks: [
         { icon: 'github', link: 'https://github.com/tabpole/docker-handbook' },
@@ -69,5 +69,9 @@ export default {
           ],
         },
       ],
+      footer: {
+        message: 'Released under the MIT License.',
+        copyright: 'Copyright © 2023 @tabpole'
+      }
     },
   }
