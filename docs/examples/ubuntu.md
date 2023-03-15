@@ -1,3 +1,13 @@
+---
+prev:
+  text: 'Hello World Example'
+  link: 'examples/hello_world.md'
+
+next: 
+  text: 'Playlists'
+  link: 'resources/playlist.md'
+---
+
 # Docker “ubuntu” example
 
 A simple example to understand docker

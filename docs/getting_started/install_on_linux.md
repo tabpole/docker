@@ -1,3 +1,13 @@
+---
+prev:
+  text: 'Overview'
+  link: '/getting_started/overview.md'
+
+next:
+  text: 'Remove from Linux'
+  link: 'getting_started/uninstall_from_linux.md'
+---
+
 # Install Docker on Linux
 
 Sequential command list to install Docker on Linux

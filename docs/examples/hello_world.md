@@ -1,3 +1,13 @@
+---
+prev:
+  text: 'Docker Registry'
+  link: 'concepts/registry.md'
+
+next:
+  text: 'Ubuntu Example'
+  link: 'examples/ubuntu.md'
+---
+
 # Docker “hello-world” example
 
 A simple example to understand docker
