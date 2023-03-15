@@ -14,6 +14,7 @@ export default {
         { text: 'Home', link: '/' },
         { text: 'Documentation', link: 'getting_started/overview.md' },
         { text: 'About', link: '/about' },
+        { text: 'Support Author', link: 'https://www.buymeacoffee.com/alpondith' },
       ],
       socialLinks: [
         { icon: 'github', link: 'https://github.com/tabpole/docker-handbook' },
@@ -22,7 +23,7 @@ export default {
       sidebar: [
         {
           text: 'Getting Started',
-          collapsed: false,
+          // collapsed: false,
           items: [
             { text: 'Overview', link: 'getting_started/overview.md' },
             { text: 'Install on Linux', link: 'getting_started/install_on_linux.md' },
@@ -31,15 +32,18 @@ export default {
         },
         {
           text: 'Concepts',
-          collapsed: false,
+          // collapsed: false,
           items: [
             { text: 'Image', link: 'concepts/image.md' },
             { text: 'Container', link: 'concepts/container.md' },
+            { text: 'Image vs Container', link: 'concepts/image_vs_container.md' },
+            { text: 'Volume', link: 'concepts/volume.md' },
+            { text: 'Registry', link: 'concepts/registry.md' },
           ],
         },
         {
           text: 'Examples',
-          collapsed: false,
+          // collapsed: false,
           items: [
             { 
               text: 'Hello World',
@@ -49,6 +53,14 @@ export default {
               text: 'Ubuntu',
               link: 'examples/ubuntu.md',
             },
+          ],
+        },
+        {
+          text: 'Resources',
+          // collapsed: false,
+          items: [
+            { text: 'Playlists', link: 'resources/playlist.md' },
+            { text: 'Tools', link: 'resources/tool.md' },
           ],
         },
       ],
