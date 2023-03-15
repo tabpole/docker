@@ -2,6 +2,10 @@
 
 A simple and short Docker guideline.
 
+## Website
+
+To visit the website [click here](https://tabpole.github.io/docker/).
+
 ## How to run on local machine
 
 Step 1: Clone repository
@@ -29,13 +33,15 @@ Other Commands :
     npm run docs:preview
 ```
 
-## Owner Contribution commands
+## Contribution commands
 
-Sequential commands
+To make a contribution fork this repository then apply following commands and make a pull request to main branch.
+
+Sequential commands:
 
 ```bash  
     git add .
-    git commit -m 'wip'
+    git commit -m 'appropriate message'
     git pull origin main
     git push origin main
 ```
