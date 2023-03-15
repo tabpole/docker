@@ -1,5 +1,13 @@
 
 :root {
+    --vp-font-family-base: 'Verdana';
+    /* --vp-font-family-base: 'Monospace'; */
+    /* --vp-font-family-base: 'Verdana'; */
+    /* --vp-font-family-base: 'Monaco' ; */
+    /* --vp-font-family-base: 'Sans-serif'; */
+    /* --vp-font-family-base: 'Serif' ; */
+    /* --vp-font-family-base: 'Fantasy' ; */
+
     --vp-c-brand: #8e43b6;
     --vp-c-brand-light: #712b94;
 

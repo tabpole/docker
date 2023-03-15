@@ -10,7 +10,13 @@ hero:
     alt: Docker Handbook
   actions:
     - theme: brand
-      text: Documentation
+      text: Support
+      link: https://www.buymeacoffee.com/alpondith
+    - theme: brand
+      text: Discord
+      link: https://discord.com/invite/KcVt8uz8yX
+    - theme: alt
+      text: Get Started
       link: getting_started/overview.md
     - theme: alt
       text: GitHub
