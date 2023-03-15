@@ -8,7 +8,12 @@ export default {
 
     themeConfig: {
       siteTitle: 'Docker Handbook',
-      logo : 'assets/logo.png',
+      logo : '/logo.png',
+
+      editLink: {
+        pattern: 'https://github.com/tabpole/docker/tree/main/docs/:path',
+        text: 'Edit this page on GitHub'
+      },
 
       nav: [
         { text: 'Home', link: '/' },
