@@ -10,6 +10,12 @@ export default {
       siteTitle: 'Docker Handbook',
       logo : '/logo.png',
 
+      algolia: {
+        appId: '9O9QAU72UI',
+        apiKey: '03fb7c8b14ef1a61c79b3ae737f2f4e0',
+        indexName: 'ker'
+      },
+
       editLink: {
         pattern: 'https://github.com/tabpole/docker/tree/main/docs/:path',
         text: 'Edit this page on GitHub'
